@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "prepare": "husky",
-    "prettier": "prettier . --write"
+    "prettier": "prettier . --write",
+    "dev:db": "ENV=development ./docker-compose.sh up -d db"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.11",
