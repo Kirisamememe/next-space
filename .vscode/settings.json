@@ -1,0 +1,44 @@
+{
+  "cSpell.words": [
+    "ˈmɒdərət",
+    "CEFR",
+    "cloze",
+    "commitlint",
+    "distractors",
+    "gridbox",
+    "groupwork",
+    "Hiragino",
+    "Hsiao",
+    "inclusivity",
+    "JLPT",
+    "Katja",
+    "Nanami",
+    "nosniff",
+    "Noto",
+    "oklch",
+    "PBKDF",
+    "shinsotsu",
+    "sonner",
+    "tailwindcss",
+    "teamlab",
+    "TOEIC",
+    "tsconfigs",
+    "Wordcards",
+    "Xiaoxiao",
+    "Zhuyin"
+  ],
+  "files.autoSave": "onFocusChange",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "eslint.useFlatConfig": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
+  "editor.codeActionsOnSave": {
+    // prettierとの競合を防ぐ (明示的にeslintを実行しない限り、eslintの修正は適用されない)
+    "source.fixAll.eslint": "explicit"
+  },
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.validate": true,
+  "i18n-ally.localesPaths": ["i18n/messages"]
+}

@@ -9,18 +9,46 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "better-auth": "^1.4.5",
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.45.0",
     "next": "16.0.7",
-    "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "next-intl": "^4.5.8",
+    "pg": "^8.16.3",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
   },
   "devDependencies": {
+    "@eslint/compat": "^2.0.0",
     "@tailwindcss/postcss": "^4",
+    "@types/eslint-config-prettier": "^6.11.3",
+    "@types/eslint-plugin-jsx-a11y": "^6.10.1",
     "@types/node": "^20",
+    "@types/pg": "^8.15.6",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "drizzle-kit": "^0.31.8",
     "eslint": "^9",
     "eslint-config-next": "16.0.7",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jsdoc": "^61.4.2",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-react-compiler": "^19.1.0-rc.2",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "prettier": "^3.7.4",
     "tailwindcss": "^4",
+    "tsx": "^4.21.0",
     "typescript": "^5"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{css,json}": [
+      "prettier --write"
+    ]
   }
 }
