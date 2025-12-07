@@ -1,0 +1,528 @@
+{
+  "common": {
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "stop": "Stop",
+    "submit": "Submit",
+    "generate": "Generate",
+    "save": "Save",
+    "continue": "Continue",
+    "delete": "Delete",
+    "ok": "OK",
+    "no": "NO",
+    "close": "Close",
+    "publish": "Publish",
+    "editor": {
+      "createdBy": "Created By {name}",
+      "lastEdit": "Last Edit {name}"
+    },
+    "form": {
+      "success": "Success!",
+      "failed": "Failed!",
+      "error": "Something went wrong!",
+      "saved": "Changes saved!",
+      "invalidData": "Invalid data.",
+      "internalError": "An internal error has occurred.",
+      "databaseError": "A database error has occurred.",
+      "permission": "Permission error.",
+      "notfound": "No matching user found.",
+      "selectImage": "Select Image"
+    },
+    "category": {
+      "newBtn": "New Category",
+      "form": {
+        "label": "Category",
+        "placeholder": "Enter category name",
+        "description": "Form field for Category name",
+        "validation": "Category name must be 1-32 characters"
+      }
+    },
+    "languageSelector": {
+      "unspecified": "Unspecified"
+    },
+    "search": {
+      "total": "Total {total} items",
+      "searchQuery": "Search result for \"{query}\": ",
+      "placeholder": "Search by title or body"
+    },
+    "orderBy": {
+      "asc": "Ascending",
+      "desc": "Descending",
+      "updatedAt": "Date Updated",
+      "createdAt": "Date Created"
+    },
+    "datetime": {
+      "updatedAt": "Updated At {datetime}",
+      "createdAt": "Created At {datetime}",
+      "archivedAt": "Archived At {datetime}"
+    }
+  },
+  "auth": {
+    "signIn": "Sign in",
+    "signInWithGoogle": "Sign in with google",
+    "signInWithMagicLink": "Sign in with magic link",
+    "emailPlaceholder": "Please enter a valid email address",
+    "signOut": "Sign out"
+  },
+  "breadcrumb": {
+    "dashboard": {
+      "1": "Dashboard"
+    },
+    "build-in-pages": {
+      "1": "Build In Pages"
+    },
+    "editors": {
+      "1": "Editors Management",
+      "2": {
+        "edit": "Edit Profile",
+        "new": "New Editor"
+      }
+    },
+    "preference": {
+      "1": "Preferences"
+    },
+    "docs": {
+      "1": "Documentation"
+    },
+    "articles": {
+      "1": "Articles",
+      "2": {
+        "new": "New Article",
+        "edit": "Edit Article",
+        "draft": "Draft",
+        "published": "Published",
+        "archive": "Archive"
+      }
+    },
+    "json-content": {
+      "1": "JSON Content",
+      "2": {
+        "new": "New JSON Content",
+        "edit": "Edit JSON Content",
+        "draft": "Draft",
+        "published": "Published",
+        "archive": "Archive"
+      }
+    },
+    "gallery": {
+      "1": "Gallery",
+      "2": {
+        "preview": "Preview",
+        "new": "New",
+        "edit": "Edit"
+      }
+    },
+    "media-collection": {
+      "1": "Media Collection"
+    },
+    "custom-contents": {
+      "1": "Single Content"
+    },
+    "content-group": {
+      "1": "Contents Group",
+      "2": {
+        "new": "New",
+        "edit": "Edit"
+      }
+    },
+    "restful-api": {
+      "1": "RESTful API",
+      "2": {
+        "token": "Access Token"
+      }
+    },
+    "graphQL": {
+      "1": "GraphQL"
+    },
+    "log": {
+      "1": "Log Analytics"
+    },
+    "restful-api-test": {
+      "1": "API Test"
+    }
+  },
+  "sidebar": {
+    "system": {
+      "name": "System",
+      "dashboard": "Dashboard",
+      "buildInPages": "Build In Pages",
+      "editors": "Editor Management",
+      "preference": "Preferences",
+      "log": "Log"
+    },
+    "contents": {
+      "name": "Contents",
+      "article": "Article",
+      "jsonContent": "JSON Content",
+      "gallery": "Gallery",
+      "mediaCollection": "Media Collection",
+      "relationalContent": "Relational Content",
+      "contentGroup": "Contents Group",
+      "new": "New",
+      "all": "All",
+      "draft": "Draft",
+      "published": "Published",
+      "archive": "Archive"
+    },
+    "api": {
+      "name": "API",
+      "restfulApi": "RESTful API",
+      "graphQL": "GraphQL",
+      "apiTest": "Test",
+      "APIManagement": "API Management",
+      "accessToken": "Access Token"
+    },
+    "other": {
+      "name": "Other",
+      "docs": "Documentation",
+      "github": "Github"
+    },
+    "footer": {
+      "theme": "Theme",
+      "profile": "Profile",
+      "setting": "Setting",
+      "language": "Language"
+    }
+  },
+  "dashboard": {
+    "welcome": "Welcome back, {name}!"
+  },
+  "editor": {
+    "SUPER_ADMIN": "Super Admin",
+    "ADMIN": "Admin",
+    "INSPECTOR": "Inspector",
+    "EDITOR": "Editor",
+    "VIEWER": "Viewer",
+    "BLOCKED": "Blocked",
+    "newEditor": "Add a new editor",
+    "authenticate": "Authenticate Editor",
+    "unauthenticated": "Unauthenticated Editor",
+    "email": {
+      "name": "Email",
+      "placeholder": "Enter your email address",
+      "description": "Input field for your email address",
+      "validation": "Please enter a valid email address"
+    },
+    "profile": {
+      "nickname": "Nickname",
+      "nicknamePlaceholder": "Input your nickname",
+      "nicknameValidationMax": "Nickname must be less than 12 characters",
+      "image": "Avatar Image",
+      "imagePlaceholder": "Input the url of your avatar image",
+      "imageValidationMax": "Image url must be less than 1024 characters",
+      "imageValidationUrl": "Image url must be a URL",
+      "role": "Role",
+      "rolePlaceholder": "Please assign a role to this user."
+    }
+  },
+  "article": {
+    "tabs": {
+      "all": "All",
+      "draft": "Draft",
+      "published": "Published",
+      "archive": "Archive"
+    },
+    "newArticle": "New article",
+    "filter": "Search by title or body",
+    "noArticles": "No articles found",
+    "lastEdited": "Last edit: {name}, {datetime}",
+    "author": "Author: {name}",
+    "createdAt": "Created At: {date}",
+    "archivedAt": "Archived At: {date}",
+    "status": {
+      "draft": "Draft",
+      "scheduled": "Scheduled",
+      "published": "Published",
+      "archive": "Archive"
+    },
+    "archiveAlert": {
+      "title": "Archive this article?",
+      "description": "Archived articles will no longer be sent to clients."
+    },
+    "restoreAlert": {
+      "title": "Restore this article?",
+      "description": "Restored articles will be sent to clients."
+    },
+    "title": {
+      "name": "Title",
+      "placeholder": "Enter the article title",
+      "description": "Main title of the article",
+      "validationMax": "Title must be less than 64 characters"
+    },
+    "slug": {
+      "name": "Slug",
+      "placeholder": "Enter URL-friendly name",
+      "description": "URL path for the article",
+      "validationMin": "Slug is required",
+      "validationMax": "Slug must be less than 64 characters"
+    },
+    "summary": {
+      "name": "Summary",
+      "placeholder": "Enter a brief summary of the article",
+      "description": "Short description of the article content",
+      "validationMax": "Summary must be less than 256 characters"
+    },
+    "image": {
+      "name": "Top Image",
+      "placeholder": "Enter image URL",
+      "description": "Featured image for the article",
+      "validationMax": "Image URL must be less than 512 characters"
+    },
+    "body": {
+      "name": "Body",
+      "placeholder": "Write your article content here",
+      "description": "Main content of the article",
+      "validationMin": "Article content is required",
+      "validationMax": "Article content must be less than 20000 characters"
+    },
+    "commitMsg": {
+      "name": "Commit message",
+      "placeholder": "Describe your changes",
+      "description": "Brief description of the changes made",
+      "validationMax": "Commit message must be less than 128 characters"
+    },
+    "authorNote": {
+      "name": "Author note",
+      "placeholder": "Add notes for other editors",
+      "description": "Additional notes for editors",
+      "validationMax": "Author note must be less than 1024 characters"
+    },
+    "publishedAt": {
+      "name": "Publication Datetime",
+      "placeholder": "Pick a datetime",
+      "description": ""
+    },
+    "aiAssistant": {
+      "title": "AI Assistant",
+      "prompt": {
+        "name": "Prompt",
+        "placeholder": "Enter a prompt",
+        "description": "Enter a prompt for the AI assistant"
+      }
+    }
+  },
+  "gallery": {
+    "newFolder": {
+      "btn": "New Folder",
+      "form": {
+        "namePlaceholder": "Enter folder name",
+        "nameDescription": "Create a new folder to organize your images",
+        "nameValidation": "Folder name must be less than 32 characters"
+      }
+    },
+    "setting": {
+      "gridSize": "Grid Size"
+    },
+    "imageUrl": {
+      "btn": "New Image URL",
+      "title": "Add a New Image URL",
+      "description": "Add a new image from your blob storage.",
+      "edit": {
+        "title": "Image ID: {id}",
+        "createdAt": "Created At {datetime}",
+        "updatedAt": "Updated At {datetime}",
+        "author": "Created by {author}"
+      },
+      "delete": {
+        "title": "Delete Image URL",
+        "description": "Are you sure you want to delete this Image URL?"
+      },
+      "form": {
+        "singleUrl": "Single",
+        "multipleUrls": "Multiple",
+        "url": "URL",
+        "urlDescription": "Enter the URL of the image stored in your blob storage",
+        "urlPlaceholder": "Select a image, or enter image URL manually",
+        "urlValidation": "URL must be less than 512 characters",
+        "name": "Name",
+        "nameDescription": "Enter a descriptive name for the image",
+        "namePlaceholder": "Enter image name",
+        "nameValidation": "Name must be less than 32 characters",
+        "folderPath": "Folder Path",
+        "folderPathDescription": "Select the folder where you want to store the image",
+        "folderPathPlaceholder": "Select a folder",
+        "urlsPlaceholder": "Please select multiple images.\nThe URLs of the selected images will be displayed here.\nIn multiple image mode, image names are generated automatically.\nAuto-generated image names can be changed later."
+      },
+      "imagePicker": {
+        "drag&drop": "Drop images here",
+        "selectAll": "Select All"
+      }
+    }
+  },
+  "api": {
+    "token": {
+      "title": "Access Token",
+      "description": "Access tokens are used to retrieve data from the API",
+      "generate": "Generate Access Token",
+      "dialog": {
+        "titleBeforeGenerate": "Generate Access Token",
+        "descriptionBeforeGenerate": "Access tokens are confidential credentials used to retrieve data from the API. Please carefully consider your needs before generating a token, as proper management is essential.",
+        "namePlaceholder": "Enter the token name",
+        "generate": "Generate",
+        "titleAfterGenerate": "Access Token Generated",
+        "descriptionAfterGenerate": "Your access token has been generated. This is confidential information used to access the API. Please ensure proper security measures are in place to protect this token."
+      },
+      "deleteAlert": {
+        "title": "Delete Access Token",
+        "description": "Are you sure you want to delete this access token? This action cannot be undone, and any applications using this token will lose access immediately."
+      },
+      "table": {
+        "name": "Name",
+        "token": "Token",
+        "createdAt": "Created At",
+        "expiresAt": "Expiration",
+        "createdBy": "Created By"
+      },
+      "toast": {
+        "copied": "Copied token to clipboard"
+      }
+    },
+    "card": {
+      "path": "Path",
+      "searchParams": "Params",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "status": {
+        "title": "Status",
+        "active": "Started {date} ago",
+        "inactive": "Inactive"
+      },
+      "origin": "Allowed Origins",
+      "badge": {
+        "notCreated": "Not Created",
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "btn": "Create",
+      "names": {
+        "many": "Get Many",
+        "unique": "Get Unique"
+      }
+    },
+    "article": {
+      "title": "Article",
+      "description": "Manage article API settings"
+    },
+    "json": {
+      "title": "JSON Content",
+      "description": "Manage JSON API settings"
+    },
+    "gallery": {
+      "title": "Gallery",
+      "description": "Manage gallery API settings"
+    },
+    "contentGroup": {
+      "title": "Content Group",
+      "description": "Manage content group API settings"
+    },
+    "tabs": {
+      "api": "API Management",
+      "token": "Token"
+    }
+  },
+  "jsonContent": {
+    "tabs": {
+      "all": "All",
+      "draft": "Draft",
+      "published": "Published",
+      "archive": "Archive"
+    },
+    "form": {
+      "newBtn": "New Content",
+      "tabs": {
+        "upload": "Upload",
+        "editor": "JSON Editor"
+      },
+      "dnd": {
+        "inactive": "Drag and drop a JSON file here, or click to select one",
+        "active": "Drop a JSON file here"
+      },
+      "slug": {
+        "name": "Slug",
+        "placeholder": "Enter URL-friendly name",
+        "description": "URL path for the content",
+        "validationMax": "Slug must be less than 64 characters"
+      },
+      "title": {
+        "name": "Title",
+        "placeholder": "Enter the content title",
+        "description": "Main title of the content",
+        "validationMax": "Title must be less than 64 characters"
+      },
+      "description": {
+        "name": "Description",
+        "placeholder": "Enter a brief description of the content",
+        "description": "Short description of the content",
+        "validationMax": "Description must be less than 256 characters"
+      },
+      "authorNote": {
+        "name": "Author note",
+        "placeholder": "Add notes for other editors",
+        "description": "Additional notes for editors",
+        "validationMax": "Author note must be less than 1024 characters"
+      },
+      "category": {
+        "name": "Category",
+        "placeholder": "Select a category",
+        "description": "Select a category for the content"
+      },
+      "publishedAt": {
+        "name": "Publication Datetime",
+        "placeholder": "Pick a datetime",
+        "description": "Select a publication datetime for the content"
+      }
+    },
+    "noContent": "No content found"
+  },
+  "contentGroup": {
+    "newBtn": "New Group",
+    "card": {
+      "article": "Article",
+      "jsonContent": "JSON Content",
+      "image": "Image",
+      "mediaFolder": "Media Folder"
+    },
+    "noContent": "No content found",
+    "form": {
+      "name": {
+        "title": "Name",
+        "placeholder": "Enter group name",
+        "description": "Name of the content group",
+        "validation": "Name must be 1-32 characters"
+      },
+      "description": {
+        "title": "Description",
+        "placeholder": "Enter group description",
+        "description": "Description of the content group",
+        "validation": "Description must be 1-2000 characters"
+      },
+      "permissionLevel": {
+        "title": "Permission Level",
+        "description": "Permission level for the content group",
+        "placeholder": "Select a permission level",
+        "1": "Super Admin (Level 1)",
+        "2": "Admin (Level 2)",
+        "3": "Editor (Level 3)"
+      },
+      "image": {
+        "title": "Top Image",
+        "description": "Featured image for the content group"
+      },
+      "articles": {
+        "title": "Article",
+        "description": "Manage articles in the content group",
+        "placeholder": "Select an article"
+      },
+      "jsonContents": {
+        "title": "JSON Content",
+        "description": "Manage JSON content in the content group",
+        "placeholder": "Select a JSON content"
+      },
+      "mediaFolders": {
+        "title": "Media Folder",
+        "description": "Manage media folder in the content group",
+        "placeholder": "Select a media folder"
+      }
+    }
+  }
+}

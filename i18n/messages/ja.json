@@ -1,0 +1,528 @@
+{
+  "common": {
+    "confirm": "確認",
+    "cancel": "キャンセル",
+    "stop": "停止",
+    "submit": "送信",
+    "generate": "生成",
+    "save": "保存",
+    "continue": "続ける",
+    "delete": "削除",
+    "ok": "はい",
+    "no": "いいえ",
+    "close": "閉じる",
+    "publish": "公開",
+    "editor": {
+      "createdBy": "作者 {name}",
+      "lastEdit": "最終編集 {name}"
+    },
+    "form": {
+      "success": "成功!",
+      "failed": "失敗!",
+      "error": "エラー発生",
+      "saved": "変更が保存されました！",
+      "invalidData": "無効なデータです。",
+      "internalError": "内部エラーが発生しました。",
+      "databaseError": "データベースエラーが発生しました。",
+      "permission": "権限がありません。",
+      "notfound": "該当ユーザーが見つかりません。",
+      "selectImage": "画像を選択"
+    },
+    "category": {
+      "newBtn": "カテゴリを追加",
+      "form": {
+        "label": "カテゴリ",
+        "placeholder": "カテゴリ名を入力してください",
+        "description": "カテゴリ名を入力してください",
+        "validation": "カテゴリ名は1文字以上32文字以内で入力してください"
+      }
+    },
+    "languageSelector": {
+      "unspecified": "指定しない"
+    },
+    "search": {
+      "total": "合計 {total} 件",
+      "searchQuery": "「{query}」の検索結果",
+      "placeholder": "タイトルや本文で検索"
+    },
+    "orderBy": {
+      "asc": "昇順",
+      "desc": "降順",
+      "updatedAt": "更新日",
+      "createdAt": "作成日"
+    },
+    "datetime": {
+      "updatedAt": "更新日時 {datetime}",
+      "createdAt": "作成日時 {datetime}",
+      "archivedAt": "アーカイブ日時 {datetime}"
+    }
+  },
+  "auth": {
+    "signIn": "ログイン",
+    "signInWithGoogle": "Google でログイン",
+    "signInWithMagicLink": "Magic Link でログイン",
+    "emailPlaceholder": "受信可能なEmailを入力してください",
+    "signOut": "ログアウト"
+  },
+  "breadcrumb": {
+    "dashboard": {
+      "1": "ダッシュボード"
+    },
+    "build-in-pages": {
+      "1": "ビルドインページ"
+    },
+    "editors": {
+      "1": "編集者管理",
+      "2": {
+        "edit": "プロフィール",
+        "new": "編集者追加"
+      }
+    },
+    "preference": {
+      "1": "環境設定"
+    },
+    "docs": {
+      "1": "ドキュメント"
+    },
+    "articles": {
+      "1": "文章",
+      "2": {
+        "new": "新規作成",
+        "edit": "編集",
+        "draft": "下書き",
+        "published": "公開中",
+        "archive": "アーカイブ"
+      }
+    },
+    "json-content": {
+      "1": "JSONコンテンツ",
+      "2": {
+        "new": "新規作成",
+        "edit": "編集",
+        "draft": "下書き",
+        "published": "公開中",
+        "archive": "アーカイブ"
+      }
+    },
+    "gallery": {
+      "1": "ギャラリー",
+      "2": {
+        "preview": "プレビュー",
+        "new": "新規作成",
+        "edit": "編集"
+      }
+    },
+    "media-collection": {
+      "1": "メディアコレクション"
+    },
+    "custom-contents": {
+      "1": "カスタムコンテンツ"
+    },
+    "content-group": {
+      "1": "コンテンツグループ",
+      "2": {
+        "new": "新規作成",
+        "edit": "編集"
+      }
+    },
+    "restful-api": {
+      "1": "RESTful API",
+      "2": {
+        "token": "アクセストークン"
+      }
+    },
+    "graphQL": {
+      "1": "GraphQL"
+    },
+    "log": {
+      "1": "ログ集計"
+    },
+    "restful-api-test": {
+      "1": "APIテスト"
+    }
+  },
+  "sidebar": {
+    "system": {
+      "name": "システム",
+      "dashboard": "ダッシュボード",
+      "buildInPages": "ビルドインページ",
+      "editors": "編集者管理",
+      "preference": "環境設定",
+      "log": "ログ"
+    },
+    "contents": {
+      "name": "コンテンツ",
+      "article": "文章",
+      "jsonContent": "JSONコンテンツ",
+      "gallery": "ギャラリー",
+      "mediaCollection": "メディアコレクション",
+      "relationalContent": "カスタムコンテンツ",
+      "contentGroup": "コンテンツグループ",
+      "new": "新規作成",
+      "all": "全て",
+      "draft": "下書き",
+      "published": "公開中",
+      "archive": "アーカイブ"
+    },
+    "api": {
+      "name": "API",
+      "restfulApi": "RESTful API",
+      "graphQL": "GraphQL",
+      "apiTest": "テスト",
+      "APIManagement": "API管理",
+      "accessToken": "アクセストークン"
+    },
+    "other": {
+      "name": "その他",
+      "docs": "ドキュメント",
+      "github": "Github"
+    },
+    "footer": {
+      "theme": "テーマ",
+      "profile": "プロフィール",
+      "setting": "設定",
+      "language": "言語"
+    }
+  },
+  "dashboard": {
+    "welcome": "お帰りなさい、{name}さん！"
+  },
+  "editor": {
+    "SUPER_ADMIN": "システム管理者",
+    "ADMIN": "管理者",
+    "INSPECTOR": "監察",
+    "EDITOR": "編集者",
+    "VIEWER": "閲覧者",
+    "BLOCKED": "利用不可",
+    "newEditor": "編集者を追加",
+    "authenticate": "認証済みの編集者",
+    "unauthenticated": "認証待ちの編集者",
+    "email": {
+      "name": "メールアドレス",
+      "placeholder": "メールアドレスを入力してください",
+      "description": "メールアドレスを入力する欄です",
+      "validation": "有効なメールアドレスを入力してください"
+    },
+    "profile": {
+      "nickname": "ニックネーム",
+      "nicknamePlaceholder": "12文字以内で入力してください",
+      "nicknameValidationMax": "ニックネームは12文字以内で入力してください。",
+      "image": "プロフィール画像",
+      "imagePlaceholder": "アバター画像のURLを入力してください",
+      "imageValidationMax": "画像URLは1024文字以内で入力してください",
+      "imageValidationUrl": "URLのフォーマットが正しくありません",
+      "role": "権限",
+      "rolePlaceholder": "権限を設定してください"
+    }
+  },
+  "article": {
+    "tabs": {
+      "all": "全部",
+      "draft": "下書き",
+      "published": "公開中",
+      "archive": "アーカイブ"
+    },
+    "newArticle": "文章を作成",
+    "filter": "タイトル / 本文で検索",
+    "noArticles": "記事が見つかりませんでした",
+    "lastEdited": "最終編集：{name} {datetime}",
+    "author": "作者：{name}",
+    "createdAt": "作成日時：{date}",
+    "archivedAt": "アーカイブ日時：{date}",
+    "status": {
+      "draft": "下書き",
+      "scheduled": "公開予定",
+      "published": "公開中",
+      "archive": "アーカイブ"
+    },
+    "archiveAlert": {
+      "title": "この記事をアーカイブしますか？",
+      "description": "アーカイブされた記事はクライアントには送信されなくなります。"
+    },
+    "restoreAlert": {
+      "title": "この記事を復元しますか?",
+      "description": "復元された記事はクライアントに送信されるようになります。"
+    },
+    "title": {
+      "name": "タイトル",
+      "placeholder": "記事のタイトルを入力",
+      "description": "記事の見出し",
+      "validationMax": "タイトルは64文字以内で入力してください"
+    },
+    "slug": {
+      "name": "スラッグ",
+      "placeholder": "URL用の識別子を入力",
+      "description": "記事のURL用パス",
+      "validationMin": "スラッグは必須項目です",
+      "validationMax": "スラッグは64文字以内で入力してください"
+    },
+    "summary": {
+      "name": "要約",
+      "placeholder": "記事の概要を入力",
+      "description": "記事の内容を簡潔に説明",
+      "validationMax": "要約は256文字以内で入力してください"
+    },
+    "image": {
+      "name": "トップ画像",
+      "placeholder": "画像URLを入力",
+      "description": "記事のメイン画像",
+      "validationMax": "画像URLは512文字以内で入力してください"
+    },
+    "body": {
+      "name": "本文",
+      "placeholder": "記事の本文を入力",
+      "description": "記事の主要な内容",
+      "validationMin": "本文は必須項目です",
+      "validationMax": "本文は20000文字以内で入力してください"
+    },
+    "commitMsg": {
+      "name": "コミットメッセージ",
+      "placeholder": "変更内容を説明",
+      "description": "変更点の簡単な説明",
+      "validationMax": "コミットメッセージは128文字以内で入力してください"
+    },
+    "authorNote": {
+      "name": "作成者メモ",
+      "placeholder": "他の編集者向けのメモを追加",
+      "description": "編集者向けの追加情報",
+      "validationMax": "作成者メモは1024文字以内で入力してください"
+    },
+    "publishedAt": {
+      "name": "公開日時",
+      "placeholder": "日時を選択してください",
+      "description": "現在の日時より前"
+    },
+    "aiAssistant": {
+      "title": "AIアシスタント",
+      "prompt": {
+        "name": "プロンプト",
+        "placeholder": "プロンプトを入力",
+        "description": "AIアシスタント用のプロンプトを入力"
+      }
+    }
+  },
+  "gallery": {
+    "newFolder": {
+      "btn": "新規フォルダ",
+      "form": {
+        "namePlaceholder": "フォルダ名を入力",
+        "nameDescription": "画像を整理するための新しいフォルダを作成",
+        "nameValidation": "フォルダ名は32文字以内で入力してください"
+      }
+    },
+    "setting": {
+      "gridSize": "グリッドサイズ"
+    },
+    "imageUrl": {
+      "btn": "画像URLを追加",
+      "title": "新規画像URLを追加",
+      "description": "BLOBストレージから新しい画像を追加します。",
+      "edit": {
+        "title": "画像ID：{id}",
+        "createdAt": "作成日時：{datetime}",
+        "updatedAt": "更新日時：{datetime}",
+        "author": "作成者：{author}"
+      },
+      "delete": {
+        "title": "画像URLを削除",
+        "description": "この画像URLを削除してもよろしいですか？"
+      },
+      "form": {
+        "singleUrl": "単体画像",
+        "multipleUrls": "複数画像",
+        "url": "URL",
+        "urlDescription": "BLOBストレージに保存されている画像のURLを入力してください",
+        "urlPlaceholder": "画像を選択、または画像URLを手動で入力",
+        "urlValidation": "URLは512文字以内で入力してください",
+        "name": "名前",
+        "nameDescription": "画像の説明的な名前を入力してください",
+        "namePlaceholder": "画像名を入力",
+        "nameValidation": "名前は32文字以内で入力してください",
+        "folderPath": "フォルダパス",
+        "folderPathDescription": "画像を保存するフォルダを選択してください",
+        "folderPathPlaceholder": "フォルダを選択",
+        "urlsPlaceholder": "画像を複数選択してください。\n選択された画像のURLはここに表示されます。\n複数画像モードでは、画像名は自動で生成されます。\n自動生成された画像名は後で変更できます。"
+      },
+      "imagePicker": {
+        "drag&drop": "画像をここにドロップ",
+        "selectAll": "全選択"
+      }
+    }
+  },
+  "api": {
+    "token": {
+      "title": "アクセストークン",
+      "description": "APIからデータを取得するために使用されます",
+      "generate": "新しいトークンを生成",
+      "dialog": {
+        "titleBeforeGenerate": "アクセストークンを生成",
+        "descriptionBeforeGenerate": "アクセストークンはAPIからデータを取得するための機密情報です。適切な管理が必要となりますので、用途をよく検討してから生成してください。",
+        "namePlaceholder": "トークン名を入力してください",
+        "generate": "生成",
+        "titleAfterGenerate": "アクセストークンが生成されました",
+        "descriptionAfterGenerate": "アクセストークンが生成されました。これはAPIアクセスに使用される機密情報です。適切なセキュリティ対策を必ず実施してください。"
+      },
+      "deleteAlert": {
+        "title": "アクセストークンの削除",
+        "description": "このアクセストークンを削除してもよろしいですか？この操作は取り消すことができず、このトークンを使用しているアプリケーションは直ちにアクセスできなくなります。"
+      },
+      "table": {
+        "name": "名称",
+        "token": "トークン",
+        "createdAt": "作成日時",
+        "expiresAt": "失効日時",
+        "createdBy": "作成者"
+      },
+      "toast": {
+        "copied": "クリップボードにコピーしました"
+      }
+    },
+    "card": {
+      "path": "パス",
+      "searchParams": "Params",
+      "createdAt": "作成日時",
+      "updatedAt": "更新日時",
+      "status": {
+        "title": "状態",
+        "active": "{date}前に起動",
+        "inactive": "未稼働"
+      },
+      "origin": "許可されたオリジン",
+      "badge": {
+        "notCreated": "未作成",
+        "active": "稼働中",
+        "inactive": "未稼働"
+      },
+      "btn": "作成",
+      "names": {
+        "many": "複数取得",
+        "unique": "単体取得"
+      }
+    },
+    "article": {
+      "title": "文章",
+      "description": "文章APIの設定を管理します"
+    },
+    "json": {
+      "title": "JSONコンテンツ",
+      "description": "JSON APIを管理します"
+    },
+    "gallery": {
+      "title": "ギャラリー",
+      "description": "ギャラリーAPIの設定を管理します"
+    },
+    "contentGroup": {
+      "title": "コンテンツグループ",
+      "description": "コンテンツグループAPIの設定を管理します"
+    },
+    "tabs": {
+      "api": "API管理",
+      "token": "アクセストークン"
+    }
+  },
+  "jsonContent": {
+    "tabs": {
+      "all": "全部",
+      "draft": "下書き",
+      "published": "公開中",
+      "archive": "アーカイブ"
+    },
+    "form": {
+      "newBtn": "新規コンテンツ",
+      "tabs": {
+        "upload": "アップロード",
+        "editor": "JSONエディタ"
+      },
+      "dnd": {
+        "inactive": "JSONファイルをドラッグしてここにドロップするか\nクリックしてファイルを選択",
+        "active": "JSONファイルをここにドロップする"
+      },
+      "slug": {
+        "name": "スラッグ",
+        "placeholder": "URLに使える名前を入力",
+        "description": "コンテンツのURLパス",
+        "validationMax": "スラッグは64文字以内で入力してください"
+      },
+      "title": {
+        "name": "タイトル",
+        "placeholder": "コンテンツのタイトルを入力",
+        "description": "コンテンツのメインタイトル",
+        "validationMax": "タイトルは64文字以内で入力してください"
+      },
+      "description": {
+        "name": "概要",
+        "placeholder": "コンテンツの短い説明を入力",
+        "description": "コンテンツの短い説明",
+        "validationMax": "説明は256文字以内で入力してください"
+      },
+      "authorNote": {
+        "name": "作成者メモ",
+        "placeholder": "他の編集者にメモを追加",
+        "description": "作成者メモ",
+        "validationMax": "作成者メモは1024文字以内で入力してください"
+      },
+      "category": {
+        "name": "カテゴリ",
+        "placeholder": "カテゴリを選択",
+        "description": "コンテンツにカテゴリを選択"
+      },
+      "publishedAt": {
+        "name": "公開日時",
+        "placeholder": "日時を選択してください",
+        "description": "発表日時を設定する"
+      }
+    },
+    "noContent": "コンテンツが見つかりません"
+  },
+  "contentGroup": {
+    "newBtn": "新規グループ",
+    "card": {
+      "article": "記事",
+      "jsonContent": "JSONコンテンツ",
+      "image": "画像",
+      "mediaFolder": "メディアフォルダ"
+    },
+    "noContent": "コンテンツが追加されていません",
+    "form": {
+      "name": {
+        "title": "グループ名",
+        "placeholder": "グループ名を入力",
+        "description": "コンテンツグループの名前",
+        "validation": "名前は1文字以上32文字以内で入力してください"
+      },
+      "description": {
+        "title": "説明",
+        "placeholder": "グループの説明を入力",
+        "description": "コンテンツグループの説明",
+        "validation": "説明は1文字以上2000文字以内で入力してください"
+      },
+      "permissionLevel": {
+        "title": "権限レベル",
+        "description": "コンテンツグループの権限レベル",
+        "placeholder": "権限レベルを選択",
+        "1": "スーパー管理者 (レベル1)",
+        "2": "管理者 (レベル2)",
+        "3": "編集者 (レベル3)"
+      },
+      "image": {
+        "title": "トップ画像",
+        "description": "コンテンツグループのメイン画像"
+      },
+      "articles": {
+        "title": "文章",
+        "description": "コンテンツグループ内の文章を管理します",
+        "placeholder": "文章を選択"
+      },
+      "jsonContents": {
+        "title": "JSONコンテンツ",
+        "description": "コンテンツグループ内のJSONコンテンツを管理します",
+        "placeholder": "JSONコンテンツを選択"
+      },
+      "mediaFolders": {
+        "title": "メディアフォルダ",
+        "description": "コンテンツグループ内のメディアフォルダを管理します",
+        "placeholder": "メディアフォルダを選択"
+      }
+    }
+  }
+}
